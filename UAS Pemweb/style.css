@@ -1,0 +1,389 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    list-style: none;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding: 20px 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background-color: transparent;
+}
+
+.bi-production {
+    height: 50px;
+    padding-left: 3px;
+}
+
+.background {
+    position: absolute;
+    background-image: url(HomePage.jpg);
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(4.5px);    
+
+}
+
+.homepage {
+    gap: 7em;
+    padding-top: 19rem;
+    padding-bottom: 19px;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: red;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding: 5px 1%;
+    padding-right: 10px;
+    font-size: medium;
+}
+
+.navbar a {
+    padding-inline: 20px;
+    color: black;
+}
+
+.home-content h3 {
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+.home-content h2 {
+    color: white;
+    text-align: center;
+}
+
+.buttondetail {
+    display: inline-block;
+    line-height: 1;
+    color: white;
+    border-radius: 10px;
+    margin-left: 35rem;
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.3s ease;
+    border: 2px solid red;
+}
+.buttondetail:hover{
+    background-color: red;
+}
+
+.bottom h3 {
+    font-weight: 200;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 14rem;
+} 
+
+.aboutus {
+    background-color: #C02020;
+    padding-top: 5rem;
+    padding-bottom: 16.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutus h2 {
+    text-align: center;  
+    color:white
+}
+
+.aboutus p {
+    text-align: center;
+    color: white;
+}
+
+.a_vm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_visi {
+    width: 40%;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_visi h3 {
+    color: white;
+}
+
+.a_misi {
+    width: 40%;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.a_misi h3 {
+    color: white;
+}
+
+.our-services {
+    background-color: #FFA27F;
+    padding-top: 5rem;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pilihan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title3 {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.JPW {
+    background-color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+}
+
+.JPW h2 {
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.JPW p {
+    font-size: 15px;
+}
+
+.detail {
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    background-color: red;
+    color: white;
+}
+
+.detailss {
+    display: flex;
+    justify-content: center;
+}
+
+.our-teams {
+    background-color: #FFE8C5;
+    padding-top: 5rem;
+    padding-bottom: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title4 {
+    text-align: center;
+    font-style: italic;
+}
+
+.teams {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.teams .box {
+    margin-top: 2rem;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px black;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.teams .box label{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.teams .box img{
+    margin-top: 1rem;
+    border-radius: 50%;
+    height: 100px;
+}
+
+.teams .box p{
+    font-size: 15px;
+}
+
+.paket {
+    background-color: #FFA27F;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+}
+
+.title5 {
+    text-align: center;
+    font-style: italic;
+}
+
+.pakett{
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-package {
+    margin-top: 1rem;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 2px gray;
+}
+
+.beli-btn {
+    display: flex;
+    margin-left: 6.5rem;
+    background-color: red;
+    border: none;
+    border-radius: 20rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 5rem;
+    margin-top: 3rem;
+    color: white;
+}
+
+.box-package h2 {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0%;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+}
+
+.box-package p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.box-package label {
+    padding-top: 5rem;
+    padding-left: 7rem;
+    font-size: 20px;
+}
+
+.career {
+    background: url(CareerPage.jpg);
+    gap: 7em;
+    padding-top: 20rem;
+    padding-bottom: 20em;
+    background-size: cover;
+}
+
+.career-content h2 {
+    color: white;
+    text-align: center;
+}
+
+.career-content button {
+    margin-left: 35rem;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 2rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.contact {
+    background-color: #FFE8C5;
+    padding-top: 5rem;
+}
+
+.title7{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.form-size {
+    display: flex;
+    padding-right: 50rem;
+    padding-left: 1rem;
+    padding-block: 10px;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.btn-send {
+    margin-left: 35rem;
+    padding-block: 10px;
+    padding-inline: 3rem;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-bottom: 5rem ;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    background-color: #97BE5A;
+    padding-block: 2rem;
+}
